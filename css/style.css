@@ -1,0 +1,288 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*====================================================================== Top View START ========================================================================*/
+
+
+.top_view{
+	background: rgba(0,0,0,0.3);
+}
+
+
+/*====================================================================== Nav Bar START ========================================================================*/
+
+
+.navbar{
+	background-color: rgba(0,0,0,0.7);
+}
+
+
+
+.navbar-brand{
+	font-size: 1.5rem;
+}
+
+.active{
+	background-color: #f1b805;
+	border: 2px solid transparent;
+	border-radius: 5px;
+	box-shadow: 0px 0px 12px #f1b805;
+}
+.nav-link{
+	margin: 0 0.3vw;
+	border: 2px solid transparent;
+	border-radius: 5px;
+	transition: 0.2s linear;
+
+
+}
+.nav-link:hover{
+	border: 2px solid #f1b805;
+	box-shadow: 0px 0px 6px #f1b805;
+}
+
+
+/*====================================================================== Nav Bar END ========================================================================*/
+
+/*====================================================================== Hero START ========================================================================*/
+
+
+.hero{
+	height: 100vh;
+	width: 100%;
+	overflow-x: hidden;
+	/*clip-path: ;*/
+}
+.video_bg video{
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: fill;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+
+/*================================================================== Typing text START ====================================================================*/
+
+
+.typed-text{
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 67px;
+	font-weight: bold;
+	color: transparent;
+	line-height: 80px;
+	-webkit-text-stroke: 3px white;
+	/*text-shadow: 3px 2px 1px #ffcdb2;*/
+	text-shadow: 3px 2px 1px coral;
+}
+
+.cursor{
+	display: inline-block;
+	height: 70px;
+	width: 3px;
+	background-color: #ffffff;
+	margin-left: 0.1rem;
+	animation: blink 1s infinite;
+}
+
+@keyframes blink{
+	0% { background-color: #ffffff; }
+	49% { background-color: #ffffff; }
+	50% { background-color: transparent; }
+	99% { background-color: transparent; }
+	100% { background-color: #ffffff; }
+}
+
+
+/*================================================================== Typing text END ====================================================================*/
+.divider{
+	height: 0.25vh;
+	width: 50%;
+	transition: 0.5s linear;
+}
+
+.go_down{
+	padding: 1% 1%;
+/*	border-left: 3px solid white;
+	border-right: 3px solid white;*/
+	border-radius: 50%;
+	border-bottom: 3px solid white;
+
+}
+
+.go_down i{
+	color: white;
+	transition: 0.4s linear;
+	animation: beat 3s linear infinite;
+	border: 2px solid transparent;
+	border-radius: 50%;
+}
+
+@keyframes beat{
+	0%{
+		opacity: 1;
+	}
+	14.3%{
+		opacity: 0.75;
+	}
+	28.6%{
+		opacity: 0.5;
+	}
+	42.9%{
+		opacity: 0.25;
+	}
+	57.2%{
+		opacity: 0.25;
+	}
+	71.5%{
+		opacity: 0.5;
+	}
+	85.8%{
+		opacity: 0.75;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.go_down i:hover{
+	color: coral;
+	border: 2px solid white;
+}
+.hero:hover .divider{
+	width: 100%;
+}
+/*================================================================== Typing text END ====================================================================*/
+
+
+/*====================================================================== Hero END ========================================================================*/
+
+
+/*====================================================================== Top View END ========================================================================*/
+
+/*====================================================================== About START ========================================================================*/
+#about{
+	background-image: linear-gradient(130deg, #ffffff 50%,#e7e7e7 50%);
+}
+
+
+/*====================================================================== About END ========================================================================*/
+
+/*====================================================================== World Section START ========================================================================*/
+
+
+#world{
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/rr.jpg');
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.w_button{
+	color: white;
+	padding: 0 2vw;
+	border: 4px solid #f1b805;
+	border-radius: 50px;
+	box-shadow: 0 0 16px #f1b805;
+	transition: 0.5s linear;
+}
+.w_button:hover{
+	background-color: #f1b805;
+	color: black;
+	padding: 0 5vw;
+	border-bottom-right-radius: 0;
+	/*border-top-left-radius: 50px;*/
+	border-bottom-left-radius: 0;
+	/*border-top-right-radius: 0;*/
+}
+
+
+
+/*====================================================================== World Section END ========================================================================*/
+
+/*====================================================================== India Section START ========================================================================*/
+
+#india{
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/c19.jpg');
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.i_button{
+	color: white;
+	padding: 0 2vw;
+	border: 4px solid #f1b805;
+	border-radius: 50px;
+	box-shadow: 0 0 16px #f1b805;
+	transition: 0.5s linear;
+}
+.i_button:hover{
+	background-color: #f1b805;
+	color: black;
+	padding: 0 5vw;
+	/*border-bottom-left-radius: 50px;*/
+	border-top-right-radius: 0;
+	/*border-bottom-right-radius: 0;*/
+	border-top-left-radius: 0;
+}
+
+
+
+
+
+
+
+/*====================================================================== India Section END ========================================================================*/
+
+/*====================================================================== Symptoms START ========================================================================*/
+.symptoms{
+/*	height: 100vh;
+	width: 100%;*/
+	/*background-image: linear-gradient(132deg,#FFFFFF 50%,#e7e7e7 50%);*/
+	background-color: #e7e7e7;
+}
+
+
+/*====================================================================== Symptoms END ========================================================================*/
+
+/*====================================================================== Precautions START ========================================================================*/
+.precautions{
+	/*background-image: linear-gradient(50deg, #ffffff 50%,#e7e7e7 50%);*/
+	background-color: #ffffff;
+}
+
+.precaution_text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*====================================================================== Precautions END ========================================================================*/
+
+/*====================================================================== Contact START ========================================================================*/
+.contact{
+	background-image: linear-gradient(to bottom left,#E2E2E2, #C9D6FF);
+
+}
+.form_border{
+	/*border: 2px solid #cad6fe;*/
+	/*background-image: linear-gradient(to left,#E2E2E2,#C9D6FF);*/
+	border-radius: 10px;
+	transition: 0.5s;
+}
+.form_border:hover{
+	background-image: linear-gradient(to left, #E2E2E2,#C9D6FF);
+	box-shadow: 1px 1px 6px grey;
+}
+.btn-s{
+	background: #7D9CFF;
+
+}
+.btn-s:hover{
+	box-shadow: 1px 1px 3px grey;
+
+}
+
+
+/*====================================================================== Contact END ========================================================================*/

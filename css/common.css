@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*====================================================================== Top View START ========================================================================*/
+
+
+.top_view{
+	background: rgba(0,0,0,0.3);
+}
+
+
+/*====================================================================== Nav Bar START ========================================================================*/
+
+
+.navbar{
+	background-color: rgba(0,0,0,0.7);
+}
+
+
+
+.navbar-brand{
+	font-size: 1.5rem;
+}
+
+.active{
+	background-color: #f1b805;
+	border: 2px solid transparent;
+	border-radius: 5px;
+	box-shadow: 0px 0px 12px #f1b805;
+}
+.nav-link{
+	margin: 0 0.3vw;
+	border: 2px solid transparent;
+	border-radius: 5px;
+	transition: 0.2s linear;
+
+
+}
+.nav-link:hover{
+	border: 2px solid #f1b805;
+	box-shadow: 0px 0px 6px #f1b805;
+}
+
+/*====================================================================== Nav Bar END ========================================================================*/
+
+
+
+/*==================================== Footer START ================================*/
+
+.footer_heading h4{
+	color: white;
+}
+.footer_heading hr{
+	height: 0.25vh;
+	width: 30%;
+	background-color: #f1b805;
+	margin: 0 auto;
+	/*border-bottom: 3px solid #f1b805;*/
+}
+.cpi{
+	color: #f1b805;
+}
+.cp_text{
+	font-size: 15px;
+}
+ 
+.link_text a{
+	text-decoration: none;
+	color: white;
+}
+
+.link_text:hover a,.link_text i{
+	color: #f1b805;
+}
+.s_icons{
+	color: whitesmoke;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.s_icons:hover{
+	color: #f1b805;
+}
+
+/*==================================== Footer END ================================*/
